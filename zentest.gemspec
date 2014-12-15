@@ -3,13 +3,10 @@ Gem::Specification.new do |spec|
   spec.name          = "zentest"
   spec.version       = "1.0.0"
   spec.authors       = ["Zachary Scott"]
-  spec.email         = ["zachary@zacharyscott.net"]
+  spec.email         = ["e@zzak.io"]
   spec.description   = %q{zentest}
   spec.summary       = %q{a psuedo gem for ZenTest}
-  spec.homepage      = ""
-  spec.license       = "MIT"
-
-  spec.files         = `git ls-files`.split($/)
+  spec.post_install_message = "I think you meant 'ZenTest'.. installing that instead."
 
   spec.add_runtime_dependency "ZenTest"
 end
